@@ -1,0 +1,1 @@
+<div class="teaching-content">{{ .Content | markdownify }}</div>

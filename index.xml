@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mila Markevych</title>
+    <link>http://localhost:4321/</link>
+      <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mila Markevych</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hu7729264130191091259.png</url>
+      <title>Mila Markevych</title>
+      <link>http://localhost:4321/</link>
+    </image>
+    
+    <item>
+      <title>Shifting Tastes Advancing Technologies: A New Perspective on Income Inequality</title>
+      <link>http://localhost:4321/working_papers/shifting_tastes/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/working_papers/shifting_tastes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can We Give Them What They Want? The Quest For Meeting The Demand For Skills Through Training in the Era of Technological Change</title>
+      <link>http://localhost:4321/works_in_progress/can_we_give/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/works_in_progress/can_we_give/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chasing the Boom: Gender Disparities in Geographic Mobility and Wage Gaps in Canada</title>
+      <link>http://localhost:4321/works_in_progress/chasing_the_boom/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/works_in_progress/chasing_the_boom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Closing the Gender Pay Gap in the US Federal Service: The Role of New Managers</title>
+      <link>http://localhost:4321/working_papers/closing_the_gender/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/working_papers/closing_the_gender/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
