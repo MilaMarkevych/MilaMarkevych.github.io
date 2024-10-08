@@ -624,14 +624,16 @@
 <section id="section-markdown" class="relative hbb-section blox-markdown  " style="padding: 0em 0 0em 0;" >
 <div style="
     background-image: url('https://milamarkevych.com/media/trees.png');
-    background-size: cover;
+    background-size: actual;
     background-position: center;
     background-repeat: no-repeat;
     border: 2px solid red;
     min-height: 100px;
     width: 100%;
-    position: relative;
+    position: absolute;
 ">
+    <span style="background: white; padding: 5px; position: absolute; top: 10px; left: 10px;">Debug: Image should be visible here</span>
+</div>
 
 </div>
 </div>
@@ -677,19 +679,11 @@
 
 
 <section id="section-markdown" class="relative hbb-section blox-markdown  " style="padding:0em 0 0em 0;" >
-<div style="
-    background-image: url('https://milamarkevych.com/media/trees.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 2px solid red;
-    min-height: 100px;
-    width: 100%;
-    position: relative;
-">
+ <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://milamarkevych.com/media/trees.png&#39;);background-size: auto;background-position: center;filter: brightness(1);">
+   
+ </div>
 
-</div>
-</div>
+
 <style>
   .section-bg-image {
     background-position: center;
@@ -700,7 +694,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;
+    z-index: -1;
   }
   .parallax {
     background-attachment: fixed;
@@ -708,6 +702,7 @@
 </style>
 
 <section class="relative">
+  
   
     
     
