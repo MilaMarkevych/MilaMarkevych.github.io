@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working papers | Mila Markevych</title>
+    <link>http://localhost:4321/works_in_progress/</link>
+      <atom:link href="http://localhost:4321/works_in_progress/index.xml" rel="self" type="application/rss+xml" />
+    <description>Working papers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:4321/media/icon_hu7729264130191091259.png</url>
+      <title>Working papers</title>
+      <link>http://localhost:4321/works_in_progress/</link>
+    </image>
+    
+    <item>
+      <title>The Taste of Change: Theory and Evidence  on Demand Driven Structural Transformation</title>
+      <link>http://localhost:4321/works_in_progress/taste_of_change/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/works_in_progress/taste_of_change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Policy to Paycheck: How Interest Rates Shape Wages In a Model With Evolving Demand and Technologies</title>
+      <link>http://localhost:4321/works_in_progress/policy_to_paycheck/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/works_in_progress/policy_to_paycheck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upskilling for the Future: The Role of Training on Labour Market Outcomes  in the Era of Technological Change</title>
+      <link>http://localhost:4321/works_in_progress/can_we_give/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/works_in_progress/can_we_give/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chasing the Boom:  The Role of Geographic Mobility in Gender Wage Gaps</title>
+      <link>http://localhost:4321/works_in_progress/chasing_the_boom/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/works_in_progress/chasing_the_boom/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

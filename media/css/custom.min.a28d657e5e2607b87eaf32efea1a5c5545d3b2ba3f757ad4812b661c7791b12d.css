@@ -1,0 +1,1 @@
+<div class="teaching-content">{{ .Content | markdownify }}</div>.avatar-circle{width:450px!important;height:450px!important}.avatar-circle img{width:100%;height:100%;object-fit:cover}
