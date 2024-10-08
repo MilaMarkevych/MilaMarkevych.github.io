@@ -622,45 +622,27 @@
 
 
 <section id="section-markdown" class="relative hbb-section blox-markdown  " style="padding: 1.5em 0 1.5em 0;" >
-<div class="home-section-bg bg-image parallax" style="
-    background-image: url('https://milamarkevych.com/media/trees.png');
-    background-size: cover;
-    background-position: center;
-    filter: brightness(1);
-    border: 3px solid red;
-    min-height: 300px;
-    position: relative;
-    z-index: 1;
-">
-    <span style="
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        background: white;
-        padding: 5px;
-        color: black;
-        z-index: 2;
-    ">Debug: Background image should be visible</span>
+<div class="home-section-bg bg-image parallax" style="background-image: url('https://milamarkevych.com/media/trees.png');background-size: auto;background-position: center;filter: brightness(1);">
 </div>
 
 <style>
   .section-bg-image {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: actual;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;
+    z-index: 0; /* Changed from -1 to 0 */
   }
   .parallax {
     background-attachment: fixed;
   }
   .home-section-bg {
-    position: relative;
-    overflow: hidden;
+    position: relative; /* Added to create a stacking context */
+    min-height: 300px; /* Ensures the div has height */
   }
 </style>
 
