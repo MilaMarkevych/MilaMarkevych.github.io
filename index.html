@@ -797,6 +797,34 @@
   }
 </style>
 
+<style>
+   
+  .resume-biography {
+    max-width: 950px;
+    margin: 20px;
+    padding: 0 20px;
+  }
+
+   
+  .resume-biography > div:last-child {
+    max-width: 60%;
+    margin-left: 0%;
+  }
+
+   
+  .resume-biography .grid {
+    gap: 2rem;
+  }
+
+   
+  @media (max-width: 768px) {
+    .resume-biography > div:last-child {
+      max-width: 100%;
+      margin-left: 0;
+    }
+  }
+</style>
+
 <div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12 mt-0">
   <div class="flex-none m-w-[130px] mx-auto md:mx-5">
 
@@ -872,7 +900,7 @@
   </div>
 
 
-  <div class="flex-auto max-w-prose md:mt-20 mb-10 md:max-w-[60%]">
+  <div class="flex-auto max-w-prose md:mt-20 mb-10">
     
     <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
       <div class="bio-text" >
