@@ -798,12 +798,21 @@
 </style>
 
 <style>
+
    
   .resume-biography {
-    max-width: 1100px;
-    margin: 150px;
     padding: 0 20px;
   }
+
+   
+  @media screen and (min-width: 1024px) {
+    .resume-biography {
+      max-width: 1100px;
+      margin: 150px;
+      display: flex;
+      justify-content: center;
+    }
+
 
    
   .resume-biography > div:last-child {
@@ -816,15 +825,20 @@
     gap: 2rem;
   }
 
-   
-  @media (max-width: 768px) {
+ 
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .resume-biography {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     .resume-biography > div:last-child {
-      max-width: 100%;
-      margin-left: 0;
+      max-width: 80%;
+      margin-top: 2rem;
     }
   }
 </style>
-
 <div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12 mt-0">
   <div class="flex-none m-w-[130px] mx-auto md:mx-5">
 
