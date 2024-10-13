@@ -1,24 +1,8 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: October 8, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: October 13, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Mila Markevych",
-  "jobTitle": "PhD Candidate",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "Vancouver School of Economics, UBC"
-  },
-  "url": "https://milamarkevych.com/"
-}
-</script>
-
-
+  
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -852,47 +836,72 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 </style>
 
-<style>
 
+<style>
    
   .resume-biography {
     padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
    
   @media screen and (min-width: 1024px) {
     .resume-biography {
-      max-width: 1200px;
-      display: flex;
+      flex-direction: row;
       justify-content: center;
+      align-items: flex-start;
     }
 
+    .resume-biography > div:first-child {
+      flex: 0 0 auto;
+      margin-right: 2rem;
+    }
+
+    .resume-biography > div:last-child {
+      flex: 1 1 auto;
+      max-width: 60%;
+    }
+  }
 
    
-  .resume-biography > div:last-child {
-    max-width: 50%;
-    margin-left: -10%; 
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .resume-biography {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .resume-biography > div:last-child {
+      width: 100%;
+      max-width: 80%;
+      margin-top: 2rem;
+    }
+  }
+
+   
+  @media screen and (max-width: 767px) {
+    .resume-biography {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .resume-biography > div:last-child {
+      width: 100%;
+      margin-top: 2rem;
+    }
   }
 
    
   .resume-biography .grid {
     gap: 2rem;
   }
-
- 
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .resume-biography {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .resume-biography > div:last-child {
-      max-width: 80%;
-      margin-top: 2rem;
-    }
-  }
 </style>
+
+
+
 <div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12 mt-0">
   <div class="flex-none m-w-[130px] mx-auto md:mx-5">
 
@@ -1829,7 +1838,6 @@ I am a PhD Candidate at the Vancouver School of Economics, UBC.
 
 
 <section class="relative">
-  
     
     
   
@@ -2485,7 +2493,6 @@ I am a PhD Candidate at the Vancouver School of Economics, UBC.
 
 
 <section class="relative">
-  
     
     
   
@@ -3060,6 +3067,7 @@ I am a PhD Candidate at the Vancouver School of Economics, UBC.
     
     
   
+
 
 
 
