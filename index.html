@@ -44,13 +44,13 @@
   .dark h5,
   .dark h6,
   .dark p,
-  .dark span,
-  .dark div,
+  .dark span:not(.bg-gradient-to-r),
+  .dark div:not(.home-section-bg),
   .dark a,
   .dark li,
   .dark .navbar,
   .dark .card,
-  .dark .section,
+  .dark .section:not(.home-section-bg),
   .dark .prose-invert,
   .dark:text-white,
   .dark .dark\:text-white,
@@ -71,6 +71,21 @@
 
   .dark .dark\:prose-invert {
     background-color: #ffffff !important;
+  }
+
+  /* Preserve images and backgrounds */
+  .dark img,
+  .dark .home-section-bg,
+  .dark .bg-image {
+    filter: none !important;
+    opacity: 1 !important;
+    background-color: transparent !important;
+  }
+
+  /* Fix for any SVG icons */
+  .dark svg {
+    color: #000000 !important;
+    fill: currentColor !important;
   }
 </style>
 
