@@ -30,64 +30,67 @@
 </style>
 
   
-  
-<style>
+  <style>
+  /* Basic dark mode settings */
   .dark {
     background-color: #ffffff !important;
-    color: #000000 !important;
   }
 
+  /* Exception for navbar - keep it dark with white text */
+  .dark .navbar {
+    background-color: #1a1a1a !important;
+  }
+
+  .dark .navbar a,
+  .dark .navbar span,
+  .dark .navbar div,
+  .dark .navbar svg {
+    color: #ffffff !important;
+  }
+
+  /* Keep the tree background image visible */
+  .dark .bg-image.parallax {
+    opacity: 1 !important;
+    filter: none !important;
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  /* Style for biography and other content sections */
+  .dark .prose,
+  .dark .bio-text,
+  .dark article,
+  .dark .mt-2.text-sm {
+    color: rgb(148, 163, 184) !important;
+    background-color: #1a1a1a !important;
+  }
+
+  /* Keep main content headings visible in dark theme */
   .dark h1,
   .dark h2,
   .dark h3,
-  .dark h4,
-  .dark h5,
-  .dark h6,
-  .dark p,
-  .dark span:not(.bg-gradient-to-r),
-  .dark div:not(.home-section-bg),
-  .dark a,
-  .dark li,
-  .dark .navbar,
-  .dark .card,
-  .dark .section:not(.home-section-bg),
-  .dark .prose-invert,
-  .dark:text-white,
-  .dark .dark\:text-white,
-  .dark .dark\:text-gray-400,
-  .dark .dark\:text-gray-300,
-  .dark .dark\:bg-hb-dark {
-    background-color: #ffffff !important;
-    color: #000000 !important;
+  .dark .text-lg,
+  .dark .font-semibold {
+    color: #ffffff !important;
   }
 
-  .dark .navbar {
-    background-color: #ffffff !important;
+  /* Links in dark mode */
+  .dark a {
+    color: #40e0d0 !important;
   }
 
-  .dark .text-gray-900 {
-    color: #000000 !important;
+  .dark a:hover {
+    color: #00ffff !important;
   }
 
-  .dark .dark\:prose-invert {
-    background-color: #ffffff !important;
-  }
-
-  /* Preserve images and backgrounds */
-  .dark img,
-  .dark .home-section-bg,
-  .dark .bg-image {
+  /* Preserve image display */
+  .dark img {
     filter: none !important;
     opacity: 1 !important;
-    background-color: transparent !important;
-  }
-
-  /* Fix for any SVG icons */
-  .dark svg {
-    color: #000000 !important;
-    fill: currentColor !important;
   }
 </style>
+
+
 
 
 
