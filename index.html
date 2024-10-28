@@ -48,21 +48,33 @@
     color: #ffffff !important;
   }
 
-  /* Keep the tree background image visible */
-  .dark .bg-image.parallax {
+  /* Explicitly handle tree background image */
+  .dark .home-section-bg.bg-image.parallax {
     opacity: 1 !important;
     filter: none !important;
     display: block !important;
     visibility: visible !important;
+    background-image: url('/media/trees_hu9779593471581106734.webp') !important;
   }
 
-  /* Style for biography and other content sections */
+  /* Style for biography and other content sections including teaching */
   .dark .prose,
   .dark .bio-text,
   .dark article,
-  .dark .mt-2.text-sm {
+  .dark .mt-2.text-sm,
+  .dark .teaching-block,
+  .dark #teaching,
+  .dark .dark\:prose-invert {
     color: rgb(148, 163, 184) !important;
     background-color: #1a1a1a !important;
+  }
+
+  /* Teaching section specific styles */
+  .dark .teaching-block h4,
+  .dark .teaching-block h5,
+  .dark .teaching-block ul,
+  .dark .teaching-block li {
+    color: rgb(148, 163, 184) !important;
   }
 
   /* Keep main content headings visible in dark theme */
@@ -87,6 +99,12 @@
   .dark img {
     filter: none !important;
     opacity: 1 !important;
+  }
+
+  /* Additional fix for section backgrounds */
+  .dark .section,
+  .dark .hbb-section {
+    background-color: #1a1a1a !important;
   }
 </style>
 
