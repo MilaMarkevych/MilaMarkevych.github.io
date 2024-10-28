@@ -33,7 +33,7 @@
   <style>
   /* Basic dark mode settings */
   .dark {
-    background-color: #ffffff !important;
+    background-color: #1a1a1a !important;
   }
 
   /* Exception for navbar - keep it dark with white text */
@@ -48,13 +48,23 @@
     color: #ffffff !important;
   }
 
-  /* Explicitly handle tree background image */
-  .dark .home-section-bg.bg-image.parallax {
+  /* Explicitly preserve the trees background in both modes */
+  .bg-image.parallax {
     opacity: 1 !important;
     filter: none !important;
-    display: block !important;
     visibility: visible !important;
-    background-image: url('/media/trees_hu9779593471581106734.webp') !important;
+    background-size: auto !important;
+    background-position: center !important;
+    background-image: url('http://localhost:4321/media/trees_hu9779593471581106734.webp') !important;
+  }
+
+  .dark .bg-image.parallax {
+    opacity: 1 !important;
+    filter: none !important;
+    visibility: visible !important;
+    background-size: auto !important;
+    background-position: center !important;
+    background-image: url('http://localhost:4321/media/trees_hu9779593471581106734.webp') !important;
   }
 
   /* Style for biography and other content sections including teaching */
@@ -105,6 +115,11 @@
   .dark .section,
   .dark .hbb-section {
     background-color: #1a1a1a !important;
+  }
+
+  /* Ensure section-markdown preserves background */
+  .dark #section-markdown {
+    background-color: transparent !important;
   }
 </style>
 
